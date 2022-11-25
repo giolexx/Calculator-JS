@@ -1,0 +1,59 @@
+.calculator{
+  /*   border: solid purple 2px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+   */
+  
+   border: solid orange 2px;
+   position: absolute;
+   width: 600px;
+   height: 600px;
+   top:50%;
+   left: 50%;
+   margin: -300px 0 0 -300px;
+}
+.screen{
+    background-color: gray;
+    height: 100px;
+    justify-items: flex-end;
+}
+.buttons{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 500px;
+    flex-direction: column;
+   
+}
+.operations {
+    display: flex;
+    justify-content: space-between;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+.until2,
+.until5,
+.until7,
+.until9{
+    display: flex;
+}
+
+.test {
+    border: solid purple 2px;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 1000px;
+    height: 100px;
+}
