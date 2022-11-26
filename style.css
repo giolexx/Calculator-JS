@@ -14,9 +14,22 @@
    margin: -300px 0 0 -300px;
 }
 .screen{
+    display: flex;
     background-color: gray;
     height: 100px;
-    justify-items: flex-end;
+    align-items:center ;
+    justify-content: flex-end;
+   
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid black;
+    height: 50px;
+    background-color: white;
+    width: 600px;
+    font-size:40px;
 }
 .buttons{
     display: flex;
@@ -56,4 +69,5 @@
 button {
     width: 1000px;
     height: 100px;
+    font-size: 20px;
 }
