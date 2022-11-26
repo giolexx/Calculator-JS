@@ -222,11 +222,11 @@ equalOp.addEventListener('click', e => {
     let b=operate(Operator,firstNumber,secondNumber);
     showScreen+=" "+secondNumber;
     if(b-b.toFixed(0) == b-b){
-      resultOperation=operate(Operator,firstNumber,secondNumber).toFixed(0);
+      resultOperation=b;
       dotUsed=0;
     }
       else{
-    resultOperation=operate(Operator,firstNumber,secondNumber).toFixed(1);
+    resultOperation=b.toFixed(1);
     dotUsed=1;}
    firstNumber=0;
    secondNumber=0;
