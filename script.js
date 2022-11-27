@@ -85,9 +85,12 @@ zero.addEventListener('click', e => {
   // if(intermediaryNumber==0)
    //intermediaryNumber=0;
    //else
+   
+    if(intermediaryNumber!=0 ){
    intermediaryNumber=intermediaryNumber+"0";
     showScreen=intermediaryNumber;
     updateResult();
+    }
 });
 one.addEventListener('click', e => {
    // intermediaryNumber=intermediaryNumber*10+1;
